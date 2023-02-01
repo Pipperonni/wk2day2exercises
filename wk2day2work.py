@@ -17,7 +17,7 @@ def less_then_ten(alist,sort_yes_no=""):
         new_alist.sort()
     return new_alist            
 
-print(less_then_ten(l_1))
+
 # Exercise 2
 # Write a function that takes in two lists and returns the two lists merged together and sorted
 # Hint: You can use the .sort() method
