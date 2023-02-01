@@ -6,7 +6,7 @@
 
 l_1 = [1,11,14,5,8,9,2,23,7]
 
-def less_then_ten(alist,type_yes_to_sort=""):
+def less_then_ten(alist, type_yes_to_sort=""):
     new_alist = []
     for number in alist:
         if number <= 9:
