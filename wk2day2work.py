@@ -25,8 +25,11 @@ def less_then_ten(alist, type_yes_to_sort=""):
 l_1 = [1,2,3,4,5,6]
 l_2 = [3,4,5,6,7,8,10]
 
-def merged_sort(list1,list2):
+def merged_sort(list1, list2, type_yes_for_nonduplicates=""):
     merged_lists = list1 + list2
     merged_lists.sort()
+    if type_yes_for_nonduplicates == "yes":
+        merged_lists = set(merged_lists)
     return merged_lists
+
 
